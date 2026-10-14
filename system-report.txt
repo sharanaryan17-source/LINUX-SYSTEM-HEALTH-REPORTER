@@ -1,0 +1,13 @@
+Linux System Health Report
+--------------------------
+Hostname: kali
+Kernel: 6.19.14+kali-amd64
+Disk Usage: / — 27% used
+Memory Usage: 792Mi/1.9Gi
+Top Process
+    PID    PPID CMD                         %MEM %CPU
+ 214030  214018 ps -eo pid,ppid,cmd,%mem,%c  0.2  100
+ 214018  212650 bash system_report.sh        0.1 18.1
+    712     688 /usr/lib/xorg/Xorg :0 -seat  5.3  4.5
+   1373    1300 /usr/lib/x86_64-linux-gnu/x  1.1  2.3
+   1232    1070 xfwm4                        2.3  1.8
